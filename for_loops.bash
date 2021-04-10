@@ -24,3 +24,10 @@ for colour in "$RED" "$GREEN" "$BLUE"; do
   echo $colour				# this echoes the three colours as it should
 done
 
+
+echo
+# range for loop
+for i in {1..5}; do
+  echo $i
+done
+
